@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Shizuru', cursive;
+  background-image: url("./images/jungle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav--bar {
+position: fixed;
+display: block;
+margin: 0 auto;
+width: 100%;
+top: 0%;
+padding: 0;
+left: 0;
+}
+
+.nav--bar h3{
+  text-align: right;
+  margin-right: 8px;
+  font-family: 'Shizuru', cursive;
+  margin-top: 0px;
+  /* margin-bottom: 5px; */
+  font-size: 3rem;
+  background: linear-gradient(to left, #ef5350, #f48fb1,#eeff41 , #f9a825, #ff5722, #eeff41, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  /* border: 1px solid red; */
+  width: 8.33%;
+}
+
+.col-5{
+  margin-top: 208px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: transparent;
+  border: red;
+  cursor: pointer;
+  
+  
+}
+.col-8{
+  width: 9.33%;
+margin-top: 355px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: transparent;
+background-color: white;
+border: red;
+cursor: pointer;
+
+
+}
+.col-7{
+  width: 7.33%;
+
+
+
+}
+
