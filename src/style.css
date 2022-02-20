@@ -51,7 +51,7 @@ left: 0;
   width: 8.33%;
 }
 
-.col-5{
+.col-8{
   margin-top: 208px;
   padding-left: 50px;
   padding-right: 50px;
@@ -63,7 +63,18 @@ left: 0;
   
   
 }
-.col-8{
+.col-0{
+  margin-top: 208px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  cursor: pointer;
+  
+  
+}
+.col-5{
   width: 9.33%;
 margin-top: 355px;
 padding-left: 50px;
