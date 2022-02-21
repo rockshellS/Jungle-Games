@@ -7,16 +7,20 @@ import Animals from "./animalData"
 const App = () => {
   // const [animals, setAnimals] = useState(animals)
   
-  const start = (click, e) => {
+  
+  
+  const handleClick = () => {
+    // if (animal.id === id)
     console.log("yep")
     // audio.play()
     
   }
 
+  
   const animals = Animals.map((animal => (
-    <AnimalButton  key={animal.id} id={animal.id} name={animal.name} url={animal.url} onClick={start}/>
-  )))
-
+    <AnimalButton  key={animal.id} id={animal.id} name={animal.name} url={animal.url} handleClick={handleClick}/>
+    )))
+    
   return (
     <div className="App">
      <Nav />

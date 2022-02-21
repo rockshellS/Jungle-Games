@@ -44,14 +44,15 @@ left: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-[class*="col-"] {
+/* [class*="col-"] {
   float: left;
   padding: 15px;
   /* border: 1px solid red; */
-  width: 8.33%;
-}
+  /* width: 8.33%;
+  z-index: 100; */
+/* } */
 
-.col-8{
+/* .col-8{
   margin-top: 208px;
   padding-left: 50px;
   padding-right: 50px;
@@ -93,5 +94,5 @@ cursor: pointer;
 
 
 
-}
+} */ 
 

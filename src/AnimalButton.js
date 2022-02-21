@@ -11,15 +11,21 @@ const AnimalButton = (props) => {
     const [hover, setHover] = useState(false)
     
    
-    
+    // const start = () => {
+    //     // if (animal.id === id)
+    //     console.log("yep")
+    //     // audio.play()
+        
+    //   }
     return(
         <div className="animal--grid">
             <button className="col-"
+                    type="button"
                     id={props.id}
                     name={props.name}
                     url={props.url}
-                    onClick={props.onClick}>
-                
+                    onClick={props.handleClick}>
+                    {props.name}
             </button>
         
      
@@ -29,4 +35,5 @@ const AnimalButton = (props) => {
 
 export default AnimalButton
 
+// {props.name}
 
