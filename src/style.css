@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 body {
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
@@ -45,55 +46,137 @@ z-index: -1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-.col- {
-  float: left;
-  padding: 15px;
-   border: 1px solid red; 
-   width: 8.33%;
-  z-index: 100; 
-} 
+.animal--grid {
+  position: relative;
+  float:left;
+  align-items: center;
+  text-align: center;
+  padding: 9px;
+  
+  
+}
 
-.col-8{
-  margin-top: 208px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.mandrill{
+  margin-top: 360%;
+  margin-left: 35%;
+  height: 125px;
+  width: 70px;
+} 
+.flamigo{
+  margin-top: 400px;
+  width: 175px;
+  height: 40px;
+  margin-left: -25px;
+}
+.macaw{
+  margin-top: 15px;
+  margin-left: -135px;
+  height: 55px;
+  width: 85px;
+}
+
+.zebra{
+  margin-top: 280px;
+  width: 140px;
+  height: 70px;
+  margin-left: -85px;
+}
+.aligator{
+  margin-top: 560px;
+  margin-left: -100px;
+  height: 30px;
+  width: 150px;
+}
+.hissing{
+  margin-top: 590px;
+  width: 100px;
+  height: 55px;
+}
+.meerkat{
+  margin-top: 365px;
+  margin-left: -440px;
+  height: 115px;
+  width: 45px;
+}
+.elephant{
+  margin-top: 140px;
+  margin-left: -350px;
+  height: 130px;
+  width: 280px;
+}
+.gorilla {
+  margin-top: 285px;
+  margin-left: -295px;
+  height: 160px;
+  width: 150px;
+}
+.snake{
+  margin-top: 25px;
+  height: 75px;
+  width: 95px;
+  margin-left: -25px;
+}
+.lion{
+  margin-top: 290px;
+  height: 155px;
+  width: 110px;
+  margin-left: -84px;
+}
+.babylion{
+  margin-top: 460px;
+  margin-left: -50px;
+  height: 110px;
+  width: 60px;
+}
+.tiger{
+  margin-top: 365px;
+  width: 100px;
+  height: 80px;
+  margin-left: -25px;
+}
+.giraffe{
+  margin-top: 75px;
+  height: 275px;
+  margin-left: -30px;
+  width: 50px;
+}
+.boar{
+  margin-top: 505px;
+  height: 150px;
+  margin-left: -85px;
+  width: 120px;
+}
+.rino{
+  margin-top: 289px;
+  width: 143px;
+  margin-left: -35px;
+  height: 165px;
+}
+.macaw2{
+  margin-top: 140px;
+  height: 100px;
+  width: 50px;
+}
+
+.mandrill,
+.zebra,
+.flamigo,
+.aligator,
+.boar,
+.giraffe,
+.gorilla,
+.hissing,
+.lion,
+.macaw,
+.macaw2,
+.meerkat,
+.rino,
+.snake,
+.tiger,
+.babylion,
+.elephant{
   background-color: transparent;
-  border: red;
+  position: relative;
   cursor: pointer;
   
-  
 }
-.col-0{
-  margin-top: 208px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: white;
-  cursor: pointer;
-  
-  
-}
-.col-5{
-  width: 9.33%;
-margin-top: 355px;
-padding-left: 50px;
-padding-right: 50px;
-padding-top: 50px;
-padding-bottom: 50px;
-background-color: transparent;
-background-color: white;
-border: red;
-cursor: pointer;
-
-
-}
-.col-7{
-  width: 7.33%;
-
-
-
-} 
-

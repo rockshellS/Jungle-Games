@@ -5,9 +5,6 @@ import Animals from "./animalData"
 
 
 const App = () => {
-  // const [animals, setAnimals] = useState(animals)
-  
-  
   
   const handleClick = (sound) => {
  
