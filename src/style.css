@@ -31,6 +31,7 @@ width: 100%;
 top: 0%;
 padding: 0;
 left: 0;
+z-index: -1;
 }
 
 .nav--bar h3{
@@ -44,15 +45,15 @@ left: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
-/* [class*="col-"] {
+.col- {
   float: left;
   padding: 15px;
-  /* border: 1px solid red; */
-  /* width: 8.33%;
-  z-index: 100; */
-/* } */
+   border: 1px solid red; 
+   width: 8.33%;
+  z-index: 100; 
+} 
 
-/* .col-8{
+.col-8{
   margin-top: 208px;
   padding-left: 50px;
   padding-right: 50px;
@@ -94,5 +95,5 @@ cursor: pointer;
 
 
 
-} */ 
+} 
 

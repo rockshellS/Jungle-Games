@@ -9,16 +9,15 @@ const App = () => {
   
   
   
-  const handleClick = () => {
-    // if (animal.id === id)
-    console.log("yep")
-    // audio.play()
+  const handleClick = (sound) => {
+ 
+   new Audio(sound).play()
     
   }
 
   
   const animals = Animals.map((animal => (
-    <AnimalButton  key={animal.id} id={animal.id} name={animal.name} url={animal.url} handleClick={handleClick}/>
+    <AnimalButton  key={animal.id} id={animal.id} name={animal.name} sound={animal.sound} handleClick={handleClick}/>
     )))
     
   return (

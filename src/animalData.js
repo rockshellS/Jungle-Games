@@ -1,16 +1,17 @@
-
+import Elephant from "./audio/Elephant.mp3"
+import Lion from "./audio/Lion.mp3"
 let animals = [
     {
         id: 1,
         name: "elephant",
-        url: "./audio/Elephant.mp3",
+        sound: Elephant,
         
         
     },
     {
         id: 2,
         name: "lion",
-        url:  "./audio/Lion.mp3",
+        sound:  Lion,
         
     }
 

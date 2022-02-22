@@ -23,8 +23,7 @@ const AnimalButton = (props) => {
                     type="button"
                     id={props.id}
                     name={props.name}
-                    url={props.url}
-                    onClick={props.handleClick}>
+                    onClick={() => props.handleClick(props.sound)}>
                     {props.name}
             </button>
         
